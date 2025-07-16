@@ -3,7 +3,7 @@
         zmk,underglow = &led_strip;
     };
 
-    led_strip: led_strip {
+   led_strip {
         compatible = "ws2812-strip";
         /*
          * You need to adjust the pin based on your wiring.
